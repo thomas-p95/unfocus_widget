@@ -1,7 +1,7 @@
 name: unfocus_widget
 description: Useful widget for unfocusing the TextField when touching outside
-version: 0.0.6
-homepage: https://tungbach.netlify.app/
+version: 0.0.7
+homepage: https://tungpt.netlify.app/
 repository: https://github.com/thomas-p95/unfocus_widget
 issue_tracker: https://github.com/thomas-p95/unfocus_widget/issues
 environment:
