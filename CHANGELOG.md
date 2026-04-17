@@ -1,3 +1,7 @@
+## 0.0.8
+
+chore: Bump version to 0.0.8
+
 ## 0.0.7
 
 chore: Update homepage URL in pubspec.yaml
