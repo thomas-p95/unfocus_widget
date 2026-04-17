@@ -1,17 +1,27 @@
 import 'package:flutter/material.dart';
 
+///@template unfocus_widget
+///
+/// UnFocusWidget is a widget that unfocuses the keyboard when touching
+/// outside the [child] widget.
+///
+/// @endtemplate
 class UnFocusWidget extends StatelessWidget {
+  ///@macro unfocus_widget
+  const UnFocusWidget({
+    required this.child,
+    super.key,
+  });
+
+  /// The child widget to unfocus when touching outside.
   final Widget child;
-
-  const UnFocusWidget({Key? key, required this.child}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         primaryFocus?.unfocus();
       },
-      child: Container(
+      child: ColoredBox(
         color: Colors.transparent,
         child: child,
       ),
