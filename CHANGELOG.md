@@ -1,3 +1,7 @@
+## 0.0.6
+
+chore: Expand README with usage instructions for UnFocusWidget.
+
 ## 0.0.5
 
 chore: Update dependencies, bump version to 0.0.5, and enhance documentation for UnFocusWidget. Remove obsolete test file.
