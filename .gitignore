@@ -76,3 +76,6 @@ build/
 
 # FVM Version Cache
 .fvm/
+
+# Lock file
+pubspec.lock

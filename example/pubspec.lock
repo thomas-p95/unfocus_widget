@@ -182,7 +182,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.5"
+    version: "0.0.8"
   vector_math:
     dependency: transitive
     description:
@@ -209,4 +209,4 @@ packages:
     version: "15.1.0"
 sdks:
   dart: ">=3.11.4 <4.0.0"
-  flutter: ">=3.41.0"
+  flutter: ">=3.18.0-18.0.pre.54"
