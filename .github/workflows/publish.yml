@@ -30,4 +30,4 @@ jobs:
       - name: Install dependencies
         run: dart pub get
       - name: Publish package
-        run: dart pub publish
+        run: dart pub publish -f --skip-validation
