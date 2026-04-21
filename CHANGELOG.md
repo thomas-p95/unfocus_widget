@@ -1,6 +1,6 @@
-## 0.0.11
+## 0.1.0
 
-chore: Bump version to 0.0.11
+chore: Bump version to 0.1.0
 
 ## 0.0.10
 
