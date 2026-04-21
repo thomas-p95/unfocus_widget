@@ -3,18 +3,20 @@ name: Publish
 on:
   push:
     branches: 
-      - main
+      - master
     paths:
       - pubspec.yaml
       - lib/**
       - example/**
       - CHANGELOG.md
       - README.md
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - uses: dart-lang/setup-dart@9a04e6d73cca37bd455e0608d7e5092f881fd603
