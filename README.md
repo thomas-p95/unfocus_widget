@@ -4,7 +4,7 @@
 [![likes](https://img.shields.io/pub/likes/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
 [![pub points](https://img.shields.io/pub/points/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
 
-![UnFocusWidget hero](assets/unfocus_widget_hero.svg)
+![UnFocusWidget hero](https://raw.githubusercontent.com/thomas-p95/unfocus_widget/master/assets/unfocus_widget_hero.svg)
 
 Wrap your UI with `UnFocusWidget` so tapping outside `TextField`s dismisses the keyboard.
 
