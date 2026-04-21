@@ -1,33 +1,15 @@
-name: Publish
+name: Publish to pub.dev
 
 on:
   push:
-    branches: 
-      - master
-    paths:
-      - pubspec.yaml
-      - lib/**
-      - example/**
-      - CHANGELOG.md
-      - README.md
-  workflow_dispatch:
-
-concurrency:
-  group: publish-${{ github.ref }}
-  cancel-in-progress: true
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: stable
-          flutter-version-file: .fvmrc
-      - run: flutter --version
-      - name: Install dependencies
-        run: dart pub get
-      - name: Publish package
-        run: dart pub publish -f --skip-validation
+  publish:
+    permissions:
+      id-token: write # Required for authentication using OIDC
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
+    with:
+      environment: 'pub.dev'
+      # working-directory: path/to/package/within/repository
