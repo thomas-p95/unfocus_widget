@@ -5,7 +5,7 @@ on:
     branches: 
       - main
     paths:
-      - 'pubspec.yaml'
+      - pubspec.yaml
       - lib/**
       - example/**
       - CHANGELOG.md
