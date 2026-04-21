@@ -1,5 +1,9 @@
 # unfocus_widget
 
+[![pub package](https://img.shields.io/pub/v/unfocus_widget?style=for-the-badge&logo=dart&logoColor=white)](https://pub.dev/packages/unfocus_widget)
+[![likes](https://img.shields.io/pub/likes/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
+[![pub points](https://img.shields.io/pub/points/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
+
 Wrap your UI with `UnFocusWidget` so tapping outside `TextField`s dismisses the keyboard.
 
 ## Add the dependency
@@ -53,5 +57,3 @@ body: UnFocusWidget(
 ```
 
 Run the demo: `cd example && flutter run`
-
-Repository: [https://github.com/thomas-p95/unfocus_widget](https://github.com/thomas-p95/unfocus_widget)
