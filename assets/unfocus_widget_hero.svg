@@ -1,0 +1,59 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#F5EEFF"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#27364A"/>
+      <stop offset="1" stop-color="#1B2635"/>
+    </linearGradient>
+    <filter id="shadow" x="270" y="70" width="660" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#1D2A3A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.25">
+    <circle cx="150" cy="140" r="72" fill="#8C7BFF"/>
+    <circle cx="1050" cy="540" r="108" fill="#5FB5FF"/>
+    <circle cx="1080" cy="130" r="48" fill="#89D3FF"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="360" y="110" width="480" height="455" rx="42" fill="url(#phone)"/>
+  </g>
+  <rect x="382" y="136" width="436" height="404" rx="28" fill="#F8FBFF"/>
+
+  <text x="420" y="188" fill="#27364A" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="700">Sign in</text>
+
+  <rect x="420" y="216" width="360" height="66" rx="14" fill="#FFFFFF" stroke="#CED9EA" stroke-width="2"/>
+  <text x="446" y="258" fill="#6A7B90" font-size="22" font-family="Arial, Helvetica, sans-serif">Email</text>
+
+  <rect x="420" y="300" width="360" height="66" rx="14" fill="#FFFFFF" stroke="#CED9EA" stroke-width="2"/>
+  <text x="446" y="342" fill="#6A7B90" font-size="22" font-family="Arial, Helvetica, sans-serif">Password</text>
+
+  <rect x="430" y="386" width="340" height="44" rx="12" fill="#DFEBFF"/>
+  <text x="505" y="415" fill="#335D9F" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Tap outside to unfocus</text>
+
+  <g>
+    <rect x="250" y="440" width="700" height="140" rx="18" fill="#1D2A3A"/>
+    <rect x="280" y="462" width="110" height="18" rx="9" fill="#62738A"/>
+    <rect x="405" y="462" width="110" height="18" rx="9" fill="#62738A"/>
+    <rect x="530" y="462" width="110" height="18" rx="9" fill="#62738A"/>
+    <rect x="655" y="462" width="110" height="18" rx="9" fill="#62738A"/>
+    <rect x="780" y="462" width="110" height="18" rx="9" fill="#62738A"/>
+  </g>
+
+  <g>
+    <circle cx="930" cy="252" r="44" fill="#FFFFFF" stroke="#B9C8DE" stroke-width="3"/>
+    <circle cx="930" cy="252" r="11" fill="#597BFF"/>
+    <path d="M893 279L860 314" stroke="#597BFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M949 223C959 233 959 250 949 260" stroke="#8FA5FF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M964 210C981 227 981 256 964 273" stroke="#C0CCFF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="42" text-anchor="middle" fill="#1C2A3A" font-size="48" font-family="Arial, Helvetica, sans-serif" font-weight="800">unfocus_widget</text>
+  <text x="600" y="82" text-anchor="middle" fill="#3B4D63" font-size="28" font-family="Arial, Helvetica, sans-serif">Tap outside TextField to dismiss keyboard</text>
+</svg>

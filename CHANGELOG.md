@@ -1,3 +1,7 @@
+## 0.0.11
+
+chore: Bump version to 0.0.11
+
 ## 0.0.10
 
 chore: Bump version to 0.0.10

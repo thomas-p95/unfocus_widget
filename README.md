@@ -4,6 +4,8 @@
 [![likes](https://img.shields.io/pub/likes/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
 [![pub points](https://img.shields.io/pub/points/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
 
+![UnFocusWidget hero](assets/unfocus_widget_hero.svg)
+
 Wrap your UI with `UnFocusWidget` so tapping outside `TextField`s dismisses the keyboard.
 
 ## Add the dependency
@@ -23,12 +25,25 @@ dart pub add unfocus_widget
 import 'package:unfocus_widget/unfocus_widget.dart';
 ```
 
-Put it around the area that should receive “outside” taps—usually `Scaffold.body`:
+Apply globally with `MaterialApp.builder`:
 
 ```dart
-Scaffold(
-  body: UnFocusWidget(
-    child: Padding(
+MaterialApp(
+  builder: (context, child) {
+    return UnFocusWidget(
+      child: child ?? const SizedBox.shrink(),
+    );
+  },
+  home: const MyHomePage(),
+);
+```
+
+Or wrap outside `Scaffold`:
+
+```dart
+UnFocusWidget(
+  child: Scaffold(
+    body: Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
         children: [
@@ -39,21 +54,6 @@ Scaffold(
     ),
   ),
 );
-```
-
-With a scrollable form, wrap the scroll view:
-
-```dart
-body: UnFocusWidget(
-  child: SingleChildScrollView(
-    padding: const EdgeInsets.all(16),
-    child: Column(
-      children: [
-        // TextFields...
-      ],
-    ),
-  ),
-),
 ```
 
 Run the demo: `cd example && flutter run`
