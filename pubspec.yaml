@@ -14,5 +14,23 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  melos: ^7.5.1
   very_good_analysis: ^10.2.0
-flutter:
+
+melos:
+  repository: https://github.com/thomas-p95/unfocus_widget
+  sdkPath: .fvm/flutter_sdk
+  useRootAsPackage: true
+  ide:
+    intellij:
+      enabled: false
+  command:
+    version:
+      includeCommitId: true
+      linkToCommits: true
+      includeScopes: true
+      workspaceChangelog: false
+      changelogCommitBodies:
+        include: true
+        onlyBreaking: false
+      message: "chore(release): Version{new_package_versions} \U0001F389"
