@@ -3,6 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/unfocus_widget?style=for-the-badge&logo=dart&logoColor=white)](https://pub.dev/packages/unfocus_widget)
 [![likes](https://img.shields.io/pub/likes/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
 [![pub points](https://img.shields.io/pub/points/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
+[![downloads](https://img.shields.io/pub/dm/unfocus_widget?style=for-the-badge)](https://pub.dev/packages/unfocus_widget/score)
 
 ![UnFocusWidget hero](https://raw.githubusercontent.com/thomas-p95/unfocus_widget/master/assets/unfocus_widget_hero.svg)
 
