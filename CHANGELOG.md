@@ -1,3 +1,7 @@
+## 0.1.2
+
+ - **FEAT**: integrate with melos. ([8e3fd572](https://github.com/thomas-p95/unfocus_widget/commit/8e3fd572d823799542cbf4f7a8279faa9af6b5cc))
+
 ## 0.1.1
 
 chore: Bump version to 0.1.1
