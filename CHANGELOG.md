@@ -1,3 +1,7 @@
+## 0.1.2+1
+
+ - **DOCS**(readme): add pub downloads badge. ([721a0057](https://github.com/thomas-p95/unfocus_widget/commit/721a00578bc45ec62f4a8aa82d484c7fbae2d37f))
+
 ## 0.1.2
 
  - **FEAT**: integrate with melos. ([8e3fd572](https://github.com/thomas-p95/unfocus_widget/commit/8e3fd572d823799542cbf4f7a8279faa9af6b5cc))
