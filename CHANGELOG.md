@@ -1,3 +1,11 @@
+## 0.1.2+2
+
+ - **DOCS**(pub): add hidden AI keywords and pub topics. ([e4be87a3](https://github.com/thomas-p95/unfocus_widget/commit/e4be87a30263db43353f87a88749eba5db333d19))
+
+    Hidden README comment for crawler indexing; richer description
+    and topics for pub.dev search.
+
+
 ## 0.1.2+1
 
  - **DOCS**(readme): add pub downloads badge. ([721a0057](https://github.com/thomas-p95/unfocus_widget/commit/721a00578bc45ec62f4a8aa82d484c7fbae2d37f))
