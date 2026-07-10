@@ -30,7 +30,6 @@ dev_dependencies:
 
 melos:
   repository: https://github.com/thomas-p95/unfocus_widget
-  sdkPath: .fvm/flutter_sdk
   useRootAsPackage: true
   ide:
     intellij:
