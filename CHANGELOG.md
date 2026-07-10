@@ -1,3 +1,5 @@
+## 0.1.2+3
+
 ## 0.1.2+2
 
  - **DOCS**(pub): add hidden AI keywords and pub topics. ([e4be87a3](https://github.com/thomas-p95/unfocus_widget/commit/e4be87a30263db43353f87a88749eba5db333d19))
