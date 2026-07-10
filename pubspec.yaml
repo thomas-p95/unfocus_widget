@@ -1,9 +1,20 @@
 name: unfocus_widget
-description: Useful widget for unfocusing the TextField when touching outside
+description: >
+  Dismiss the Flutter keyboard when tapping outside TextField widgets.
+  Lightweight unfocus widget for forms, login screens, and search fields.
+  Tap outside to hide keyboard with MaterialApp.builder or Scaffold.
 version: 0.1.2+1
-homepage: https://tungpt.netlify.app/
+homepage: https://simpleman.dev
 repository: https://github.com/thomas-p95/unfocus_widget
 issue_tracker: https://github.com/thomas-p95/unfocus_widget/issues
+topics:
+  - flutter
+  - keyboard
+  - textfield
+  - unfocus
+  - gesture-detector
+  - forms
+  - ux
 environment:
   sdk: ">=3.11.0 <4.0.0"
 
