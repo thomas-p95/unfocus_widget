@@ -8,11 +8,9 @@ homepage: https://simpleman.dev
 repository: https://github.com/thomas-p95/unfocus_widget
 issue_tracker: https://github.com/thomas-p95/unfocus_widget/issues
 topics:
-  - flutter
   - keyboard
   - textfield
   - unfocus
-  - gesture-detector
   - forms
   - ux
 environment:
