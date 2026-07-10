@@ -1,6 +1,6 @@
 name: unfocus_widget
 description: Dismiss the Flutter keyboard when tapping outside TextField widgets. Lightweight unfocus helper for forms, login screens, and search fields.
-version: 0.1.2+3
+version: 0.1.2+4
 homepage: https://simpleman.dev
 repository: https://github.com/thomas-p95/unfocus_widget
 issue_tracker: https://github.com/thomas-p95/unfocus_widget/issues
