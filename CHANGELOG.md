@@ -1,3 +1,7 @@
+## 0.1.2+5
+
+ - **DOCS**(changelog): sanitize 0.1.2+2–0.1.2+4 entries. ([adcde473](https://github.com/thomas-p95/unfocus_widget/commit/adcde47328e4a480e3d1920f559dfc417d57c27f))
+
 ## 0.1.2+4
 
  - **CHORE**(pub): shorten package description. ([99403d4](https://github.com/thomas-p95/unfocus_widget/commit/99403d407d5cba1a1bd24c15b35c66e6d8f5ec60))
