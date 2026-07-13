@@ -1,13 +1,16 @@
 ## 0.1.2+4
 
+ - **CHORE**(pub): shorten package description. ([99403d4](https://github.com/thomas-p95/unfocus_widget/commit/99403d407d5cba1a1bd24c15b35c66e6d8f5ec60))
+
 ## 0.1.2+3
+
+ - **CHORE**(pub): refine pub.dev topics. ([0f8cafa](https://github.com/thomas-p95/unfocus_widget/commit/0f8cafa8a6f8e6349a82d17874f53b42f983165a))
 
 ## 0.1.2+2
 
- - **DOCS**(pub): add hidden AI keywords and pub topics. ([e4be87a3](https://github.com/thomas-p95/unfocus_widget/commit/e4be87a30263db43353f87a88749eba5db333d19))
-
-    Hidden README comment for crawler indexing; richer description
-    and topics for pub.dev search.
+ - **DOCS**(pub): update package description and pub.dev topics. ([e4be87a](https://github.com/thomas-p95/unfocus_widget/commit/e4be87a30263db43353f87a88749eba5db333d19))
+ - **CHORE**(deps): bump melos to ^8.2.0. ([6cb314d](https://github.com/thomas-p95/unfocus_widget/commit/6cb314dad51d0e1dad2ba021b31e18842663c2ea))
+ - **CHORE**: remove FVM and use local Flutter SDK. ([c710e02](https://github.com/thomas-p95/unfocus_widget/commit/c710e0237a193e0cfcb58ebd8bf3806a518e413c))
 
 
 ## 0.1.2+1
